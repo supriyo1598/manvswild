@@ -81,4 +81,47 @@ span{
     padding-top:14px ;
     color: #fff;
 }
-
+.hamburger{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.hamburger img{
+    height: 30px;
+    width: 30px;
+    filter: invert();
+    display: none;
+}
+@media screen and (max-width:600px)
+{
+    ul{
+        display: none;
+    }
+    span {
+        padding-left: 0px;
+    }
+    .page p {
+        padding-top: 50px;
+    }
+    .page h2 {
+        font-size: 2em;
+    }
+    .page{
+        width:100%;
+        height: 144px;
+    }
+    .text{
+        top: 31%;
+        left: 3%;
+    }
+    h1{
+        text-align: center;
+        font-size: 4em;
+    }
+    .main{
+        background-position: center;
+    }
+    .hamburger img{
+        display: block;
+    }
+}
